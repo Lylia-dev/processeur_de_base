@@ -1,0 +1,626 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3858BF246369B59E",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../processor.gen/sources_1/bd/processor",
+      "name": "processor",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Control_Unit_0": "",
+      "S_Controller_0": "",
+      "F_controller_0": "",
+      "R_Controller_0": "",
+      "ri_controller_0": "",
+      "ALU_Controller_0": "",
+      "MDR_Controller_0": "",
+      "mar_controller_0": "",
+      "pc_controller_0": "",
+      "FGI_Controller_0": "",
+      "FGO_Controller_0": "",
+      "WR_Controller_0": "",
+      "RAM_4Kx16_0": "",
+      "outr_controller_0": "",
+      "clk_wiz": "",
+      "E_controller_0": ""
+    },
+    "ports": {
+      "OUTR_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "processor_clk_100MHz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "INPR_0": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Control_Unit_0": {
+        "vlnv": "xilinx.com:user:Control_Unit:1.0",
+        "xci_name": "processor_Control_Unit_0_0",
+        "xci_path": "ip\\processor_Control_Unit_0_0\\processor_Control_Unit_0_0.xci",
+        "inst_hier_path": "Control_Unit_0"
+      },
+      "S_Controller_0": {
+        "vlnv": "xilinx.com:user:S_Controller:1.0",
+        "xci_name": "processor_S_Controller_0_0",
+        "xci_path": "ip\\processor_S_Controller_0_0\\processor_S_Controller_0_0.xci",
+        "inst_hier_path": "S_Controller_0"
+      },
+      "F_controller_0": {
+        "vlnv": "xilinx.com:user:F_controller:1.0",
+        "xci_name": "processor_F_controller_0_0",
+        "xci_path": "ip\\processor_F_controller_0_0\\processor_F_controller_0_0.xci",
+        "inst_hier_path": "F_controller_0"
+      },
+      "R_Controller_0": {
+        "vlnv": "xilinx.com:user:R_Controller:1.0",
+        "xci_name": "processor_R_Controller_0_0",
+        "xci_path": "ip\\processor_R_Controller_0_0\\processor_R_Controller_0_0.xci",
+        "inst_hier_path": "R_Controller_0"
+      },
+      "ri_controller_0": {
+        "vlnv": "xilinx.com:user:ri_controller:1.0",
+        "xci_name": "processor_ri_controller_0_0",
+        "xci_path": "ip\\processor_ri_controller_0_0\\processor_ri_controller_0_0.xci",
+        "inst_hier_path": "ri_controller_0"
+      },
+      "ALU_Controller_0": {
+        "vlnv": "xilinx.com:user:ALU_Controller:1.0",
+        "xci_name": "processor_ALU_Controller_0_0",
+        "xci_path": "ip\\processor_ALU_Controller_0_0\\processor_ALU_Controller_0_0.xci",
+        "inst_hier_path": "ALU_Controller_0"
+      },
+      "MDR_Controller_0": {
+        "vlnv": "xilinx.com:user:MDR_Controller:1.0",
+        "xci_name": "processor_MDR_Controller_0_0",
+        "xci_path": "ip\\processor_MDR_Controller_0_0\\processor_MDR_Controller_0_0.xci",
+        "inst_hier_path": "MDR_Controller_0"
+      },
+      "mar_controller_0": {
+        "vlnv": "xilinx.com:user:mar_controller:1.0",
+        "xci_name": "processor_mar_controller_0_0",
+        "xci_path": "ip\\processor_mar_controller_0_0\\processor_mar_controller_0_0.xci",
+        "inst_hier_path": "mar_controller_0"
+      },
+      "pc_controller_0": {
+        "vlnv": "xilinx.com:user:pc_controller:1.0",
+        "xci_name": "processor_pc_controller_0_0",
+        "xci_path": "ip\\processor_pc_controller_0_0\\processor_pc_controller_0_0.xci",
+        "inst_hier_path": "pc_controller_0"
+      },
+      "FGI_Controller_0": {
+        "vlnv": "xilinx.com:user:FGI_Controller:1.0",
+        "xci_name": "processor_FGI_Controller_0_0",
+        "xci_path": "ip\\processor_FGI_Controller_0_0\\processor_FGI_Controller_0_0.xci",
+        "inst_hier_path": "FGI_Controller_0"
+      },
+      "FGO_Controller_0": {
+        "vlnv": "xilinx.com:user:FGO_Controller:1.0",
+        "xci_name": "processor_FGO_Controller_0_0",
+        "xci_path": "ip\\processor_FGO_Controller_0_0\\processor_FGO_Controller_0_0.xci",
+        "inst_hier_path": "FGO_Controller_0"
+      },
+      "WR_Controller_0": {
+        "vlnv": "xilinx.com:user:WR_Controller:1.0",
+        "xci_name": "processor_WR_Controller_0_0",
+        "xci_path": "ip\\processor_WR_Controller_0_0\\processor_WR_Controller_0_0.xci",
+        "inst_hier_path": "WR_Controller_0"
+      },
+      "RAM_4Kx16_0": {
+        "vlnv": "xilinx.com:user:RAM_4Kx16:1.0",
+        "xci_name": "processor_RAM_4Kx16_0_0",
+        "xci_path": "ip\\processor_RAM_4Kx16_0_0\\processor_RAM_4Kx16_0_0.xci",
+        "inst_hier_path": "RAM_4Kx16_0"
+      },
+      "outr_controller_0": {
+        "vlnv": "xilinx.com:user:outr_controller:1.0",
+        "xci_name": "processor_outr_controller_0_0",
+        "xci_path": "ip\\processor_outr_controller_0_0\\processor_outr_controller_0_0.xci",
+        "inst_hier_path": "outr_controller_0"
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "processor_clk_wiz_0",
+        "xci_path": "ip\\processor_clk_wiz_0\\processor_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz"
+      },
+      "E_controller_0": {
+        "vlnv": "xilinx.com:user:E_controller:1.0",
+        "xci_name": "processor_E_controller_0_0",
+        "xci_path": "ip\\processor_E_controller_0_0\\processor_E_controller_0_0.xci",
+        "inst_hier_path": "E_controller_0"
+      }
+    },
+    "nets": {
+      "ALU_Controller_0_AC": {
+        "ports": [
+          "ALU_Controller_0/AC",
+          "MDR_Controller_0/AC",
+          "pc_controller_0/AC",
+          "outr_controller_0/AC"
+        ]
+      },
+      "ALU_Controller_0_E": {
+        "ports": [
+          "ALU_Controller_0/E",
+          "E_controller_0/E_in"
+        ]
+      },
+      "Control_Unit_0_F1": {
+        "ports": [
+          "Control_Unit_0/F1",
+          "mar_controller_0/F1"
+        ]
+      },
+      "Control_Unit_0_F2": {
+        "ports": [
+          "Control_Unit_0/F2",
+          "MDR_Controller_0/F2",
+          "pc_controller_0/F2",
+          "WR_Controller_0/F2"
+        ]
+      },
+      "Control_Unit_0_F3": {
+        "ports": [
+          "Control_Unit_0/F3",
+          "ri_controller_0/F3"
+        ]
+      },
+      "Control_Unit_0_F4": {
+        "ports": [
+          "Control_Unit_0/F4",
+          "R_Controller_0/F4"
+        ]
+      },
+      "Control_Unit_0_F5": {
+        "ports": [
+          "Control_Unit_0/F5",
+          "F_controller_0/F5"
+        ]
+      },
+      "Control_Unit_0_F6": {
+        "ports": [
+          "Control_Unit_0/F6",
+          "mar_controller_0/F6"
+        ]
+      },
+      "Control_Unit_0_F7": {
+        "ports": [
+          "Control_Unit_0/F7",
+          "MDR_Controller_0/F7",
+          "WR_Controller_0/F7"
+        ]
+      },
+      "Control_Unit_0_F9": {
+        "ports": [
+          "Control_Unit_0/F9",
+          "F_controller_0/F9",
+          "R_Controller_0/F9"
+        ]
+      },
+      "Control_Unit_0_F10": {
+        "ports": [
+          "Control_Unit_0/F10",
+          "mar_controller_0/F10"
+        ]
+      },
+      "Control_Unit_0_F11": {
+        "ports": [
+          "Control_Unit_0/F11",
+          "MDR_Controller_0/F11",
+          "WR_Controller_0/F11"
+        ]
+      },
+      "Control_Unit_0_F12": {
+        "ports": [
+          "Control_Unit_0/F12",
+          "ALU_Controller_0/F12"
+        ]
+      },
+      "Control_Unit_0_F13": {
+        "ports": [
+          "Control_Unit_0/F13",
+          "F_controller_0/F13"
+        ]
+      },
+      "Control_Unit_0_F14": {
+        "ports": [
+          "Control_Unit_0/F14",
+          "mar_controller_0/F14"
+        ]
+      },
+      "Control_Unit_0_F15": {
+        "ports": [
+          "Control_Unit_0/F15",
+          "MDR_Controller_0/F15",
+          "WR_Controller_0/F15"
+        ]
+      },
+      "Control_Unit_0_F16": {
+        "ports": [
+          "Control_Unit_0/F16",
+          "ALU_Controller_0/F16"
+        ]
+      },
+      "Control_Unit_0_F17": {
+        "ports": [
+          "Control_Unit_0/F17",
+          "mar_controller_0/F17"
+        ]
+      },
+      "Control_Unit_0_F18": {
+        "ports": [
+          "Control_Unit_0/F18",
+          "MDR_Controller_0/F18",
+          "WR_Controller_0/F18"
+        ]
+      },
+      "Control_Unit_0_F19": {
+        "ports": [
+          "Control_Unit_0/F19",
+          "ALU_Controller_0/F19"
+        ]
+      },
+      "Control_Unit_0_F20": {
+        "ports": [
+          "Control_Unit_0/F20",
+          "mar_controller_0/F20"
+        ]
+      },
+      "Control_Unit_0_F21": {
+        "ports": [
+          "Control_Unit_0/F21",
+          "MDR_Controller_0/F21"
+        ]
+      },
+      "Control_Unit_0_F22": {
+        "ports": [
+          "Control_Unit_0/F22",
+          "WR_Controller_0/F22"
+        ]
+      },
+      "Control_Unit_0_F23": {
+        "ports": [
+          "Control_Unit_0/F23",
+          "pc_controller_0/F23"
+        ]
+      },
+      "Control_Unit_0_F24": {
+        "ports": [
+          "Control_Unit_0/F24",
+          "pc_controller_0/F24"
+        ]
+      },
+      "Control_Unit_0_F25": {
+        "ports": [
+          "Control_Unit_0/F25",
+          "WR_Controller_0/F25"
+        ]
+      },
+      "Control_Unit_0_F26": {
+        "ports": [
+          "Control_Unit_0/F26",
+          "pc_controller_0/F26"
+        ]
+      },
+      "Control_Unit_0_F27": {
+        "ports": [
+          "Control_Unit_0/F27",
+          "mar_controller_0/F27"
+        ]
+      },
+      "Control_Unit_0_F28": {
+        "ports": [
+          "Control_Unit_0/F28",
+          "MDR_Controller_0/F28",
+          "WR_Controller_0/F28"
+        ]
+      },
+      "Control_Unit_0_F29": {
+        "ports": [
+          "Control_Unit_0/F29",
+          "MDR_Controller_0/F29"
+        ]
+      },
+      "Control_Unit_0_F30": {
+        "ports": [
+          "Control_Unit_0/F30",
+          "pc_controller_0/F30",
+          "WR_Controller_0/F30"
+        ]
+      },
+      "Control_Unit_0_F31": {
+        "ports": [
+          "Control_Unit_0/F31",
+          "ALU_Controller_0/F31"
+        ]
+      },
+      "Control_Unit_0_F32": {
+        "ports": [
+          "Control_Unit_0/F32",
+          "E_controller_0/F32"
+        ]
+      },
+      "Control_Unit_0_F33": {
+        "ports": [
+          "Control_Unit_0/F33",
+          "ALU_Controller_0/F33"
+        ]
+      },
+      "Control_Unit_0_F34": {
+        "ports": [
+          "Control_Unit_0/F34",
+          "E_controller_0/F34"
+        ]
+      },
+      "Control_Unit_0_F35": {
+        "ports": [
+          "Control_Unit_0/F35",
+          "ALU_Controller_0/F35",
+          "E_controller_0/F35"
+        ]
+      },
+      "Control_Unit_0_F36": {
+        "ports": [
+          "Control_Unit_0/F36",
+          "ALU_Controller_0/F36",
+          "E_controller_0/F36"
+        ]
+      },
+      "Control_Unit_0_F37": {
+        "ports": [
+          "Control_Unit_0/F37",
+          "ALU_Controller_0/F37",
+          "E_controller_0/F37"
+        ]
+      },
+      "Control_Unit_0_F38": {
+        "ports": [
+          "Control_Unit_0/F38",
+          "pc_controller_0/F38"
+        ]
+      },
+      "Control_Unit_0_F39": {
+        "ports": [
+          "Control_Unit_0/F39",
+          "pc_controller_0/F39"
+        ]
+      },
+      "Control_Unit_0_F40": {
+        "ports": [
+          "Control_Unit_0/F40",
+          "pc_controller_0/F40"
+        ]
+      },
+      "Control_Unit_0_F41": {
+        "ports": [
+          "Control_Unit_0/F41",
+          "pc_controller_0/F41"
+        ]
+      },
+      "Control_Unit_0_F42": {
+        "ports": [
+          "Control_Unit_0/F42",
+          "S_Controller_0/F42"
+        ]
+      },
+      "Control_Unit_0_F43": {
+        "ports": [
+          "Control_Unit_0/F43",
+          "ALU_Controller_0/F43",
+          "FGI_Controller_0/F43",
+          "outr_controller_0/F43"
+        ]
+      },
+      "Control_Unit_0_F44": {
+        "ports": [
+          "Control_Unit_0/F44",
+          "FGO_Controller_0/F44"
+        ]
+      },
+      "Control_Unit_0_F45": {
+        "ports": [
+          "Control_Unit_0/F45",
+          "pc_controller_0/F45"
+        ]
+      },
+      "Control_Unit_0_F46": {
+        "ports": [
+          "Control_Unit_0/F46",
+          "pc_controller_0/F46"
+        ]
+      },
+      "Control_Unit_0_F47": {
+        "ports": [
+          "Control_Unit_0/F47",
+          "mar_controller_0/F47"
+        ]
+      },
+      "Control_Unit_0_F48": {
+        "ports": [
+          "Control_Unit_0/F48",
+          "MDR_Controller_0/F48",
+          "pc_controller_0/F48",
+          "WR_Controller_0/F48"
+        ]
+      },
+      "Control_Unit_0_F49": {
+        "ports": [
+          "Control_Unit_0/F49",
+          "ALU_Controller_0/F49"
+        ]
+      },
+      "E_controller_0_E": {
+        "ports": [
+          "E_controller_0/E",
+          "pc_controller_0/E"
+        ]
+      },
+      "FGI_Controller_0_FGI": {
+        "ports": [
+          "FGI_Controller_0/FGI",
+          "pc_controller_0/FGI"
+        ]
+      },
+      "FGO_Controller_0_FGO": {
+        "ports": [
+          "FGO_Controller_0/FGO",
+          "pc_controller_0/FGO"
+        ]
+      },
+      "F_controller_0_F": {
+        "ports": [
+          "F_controller_0/F",
+          "Control_Unit_0/F"
+        ]
+      },
+      "INPR_0_1": {
+        "ports": [
+          "INPR_0",
+          "ALU_Controller_0/INPR"
+        ]
+      },
+      "MDR_Controller_0_MDR": {
+        "ports": [
+          "MDR_Controller_0/MDR",
+          "ALU_Controller_0/MDR",
+          "mar_controller_0/MDR",
+          "pc_controller_0/MDR",
+          "RAM_4Kx16_0/data_in",
+          "ri_controller_0/MDR"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "S_Controller_0/clk",
+          "Control_Unit_0/clk",
+          "F_controller_0/clk",
+          "R_Controller_0/clk",
+          "ri_controller_0/clk",
+          "ALU_Controller_0/clk",
+          "MDR_Controller_0/clk",
+          "pc_controller_0/clk",
+          "mar_controller_0/clk",
+          "FGI_Controller_0/clk",
+          "FGO_Controller_0/clk",
+          "RAM_4Kx16_0/clk",
+          "outr_controller_0/clk",
+          "E_controller_0/clk"
+        ]
+      },
+      "RAM_4Kx16_0_data_out": {
+        "ports": [
+          "RAM_4Kx16_0/data_out",
+          "MDR_Controller_0/Data"
+        ]
+      },
+      "R_Controller_0_R": {
+        "ports": [
+          "R_Controller_0/R",
+          "Control_Unit_0/R"
+        ]
+      },
+      "S_Controller_0_S": {
+        "ports": [
+          "S_Controller_0/S",
+          "Control_Unit_0/S"
+        ]
+      },
+      "WR_Controller_0_R": {
+        "ports": [
+          "WR_Controller_0/R",
+          "RAM_4Kx16_0/READ"
+        ]
+      },
+      "WR_Controller_0_W": {
+        "ports": [
+          "WR_Controller_0/W",
+          "RAM_4Kx16_0/WRITE"
+        ]
+      },
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "mar_controller_0_MAR": {
+        "ports": [
+          "mar_controller_0/MAR",
+          "RAM_4Kx16_0/ADR"
+        ]
+      },
+      "outr_controller_0_OUTR": {
+        "ports": [
+          "outr_controller_0/OUTR",
+          "OUTR_0"
+        ]
+      },
+      "pc_controller_0_PC": {
+        "ports": [
+          "pc_controller_0/PC",
+          "mar_controller_0/PC"
+        ]
+      },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "clk_wiz/reset"
+        ]
+      },
+      "ri_controller_0_RI": {
+        "ports": [
+          "ri_controller_0/RI",
+          "Control_Unit_0/RI",
+          "mar_controller_0/RI"
+        ]
+      }
+    }
+  }
+}
