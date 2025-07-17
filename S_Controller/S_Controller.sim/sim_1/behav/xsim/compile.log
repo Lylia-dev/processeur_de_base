@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/S_Controller/S_Controller.srcs/sources_1/new/S_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/S_Controller/S_Controller.srcs/sim_1/new/S_Controller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S_Controller_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/S_Controller/S_Controller.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

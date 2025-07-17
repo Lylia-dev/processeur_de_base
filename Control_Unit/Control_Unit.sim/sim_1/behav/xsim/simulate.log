@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+=== Testbench Start ===
+Time: 40000 ns
+  F1 ACTIVE
+---------------------------
+Time: 80000 ns
+  F10 ACTIVE
+---------------------------
+Time: 120000 ns
+---------------------------
+Time: 160000 ns
+  F47 ACTIVE
+---------------------------
+Time: 200000 ns
+  F10 ACTIVE
+---------------------------
+=== Testbench End ===
+$stop called at time : 200 ns : File "C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Control_Unit_tb.v" Line 154

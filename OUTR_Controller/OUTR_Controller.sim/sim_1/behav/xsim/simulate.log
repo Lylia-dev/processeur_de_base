@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+OUTR = 34 (expected 34)
+OUTR = 34 (expected 34)
+OUTR = 78 (expected 78)
+$finish called at time : 60 ns : File "C:/Users/HP/Desktop/up/OUTR_Controller/OUTR_Controller.srcs/sim_1/new/outr_controller_tb.v" Line 78

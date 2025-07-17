@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/RI_Controller/RI_Controller.srcs/sources_1/new/ri_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ri_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/RI_Controller/RI_Controller.srcs/sim_1/new/ri_controller_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ri_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/RI_Controller/RI_Controller.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

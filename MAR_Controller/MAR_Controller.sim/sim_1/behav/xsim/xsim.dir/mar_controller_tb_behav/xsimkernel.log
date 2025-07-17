@@ -1,0 +1,7 @@
+Running: xsim.dir/mar_controller_tb_behav/xsimk.exe -simmode gui -wdb mar_controller_tb_behav.wdb -simrunnum 0 -socket 52741
+Design successfully loaded
+Design Loading Memory Usage: 10236 KB (Peak: 10236 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 10952 KB (Peak: 10952 KB)
+Simulation CPU Usage: 92 ms

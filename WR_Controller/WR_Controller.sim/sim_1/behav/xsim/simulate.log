@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Time	F2 F7 F11 F15 F18 F28 F48 | F22 F25 F30 || R W
+10000	0 0 0  0  0  0  0  |  0  0  0  || 0 0
+20000	1 0 0  0  0  0  0  |  0  0  0  || 1 0
+30000	0 0 0  0  0  0  0  |  0  1  0  || 0 1
+40000	0 0 1  0  0  0  0  |  1  0  0  || 0 0
+50000	1 0 0  1  0  0  0  |  0  0  0  || 1 0
+60000	0 0 0  0  0  0  0  |  1  0  1  || 0 1
+70000	1 1 0  0  1  0  0  |  1  1  0  || 0 0
+$finish called at time : 70 ns : File "C:/Users/HP/Desktop/up/WR_Controller/WR_Controller.srcs/sim_1/new/wr_controller_tb.v" Line 90

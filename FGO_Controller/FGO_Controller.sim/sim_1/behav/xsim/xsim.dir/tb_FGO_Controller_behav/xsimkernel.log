@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_FGO_Controller_behav/xsimk.exe -simmode gui -wdb tb_FGO_Controller_behav.wdb -simrunnum 0 -socket 63116
+Design successfully loaded
+Design Loading Memory Usage: 10588 KB (Peak: 10588 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 11272 KB (Peak: 11272 KB)
+Simulation CPU Usage: 77 ms

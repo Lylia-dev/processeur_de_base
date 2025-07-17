@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+E = 1 (expected 1)
+E = 0 (expected 0)
+E = 1 (expected 1)
+E = 0 (expected 0)
+E = 1 (expected 1)
+$finish called at time : 110 ns : File "C:/Users/HP/Desktop/up/E_Controller/E_Controller.srcs/sim_1/new/E_controller_tb.v" Line 98

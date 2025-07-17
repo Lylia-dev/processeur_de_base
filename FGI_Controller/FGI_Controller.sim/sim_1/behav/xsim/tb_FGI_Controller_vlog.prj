@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FGI_Controller.srcs/sources_1/new/FGI_Controller.v" \
+"../../../../FGI_Controller.srcs/sim_1/new/FGI_Controller_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

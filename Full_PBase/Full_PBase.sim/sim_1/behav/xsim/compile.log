@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.ip_user_files/bd/Full_PB/ip/Full_PB_clk_wiz_0/Full_PB_clk_wiz_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_PB_clk_wiz_0
+INFO: [VRFC 10-311] analyzing module Full_PB_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl

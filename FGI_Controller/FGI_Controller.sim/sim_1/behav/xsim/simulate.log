@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Time=10000 | Initial FGI = 1
+Time=20000 | After F43=1, FGI = 0
+Time=30000 | Final FGI = 0
+$stop called at time : 30 ns : File "C:/Users/HP/Desktop/up/FGI_Controller/FGI_Controller.srcs/sim_1/new/FGI_Controller_tb.v" Line 65

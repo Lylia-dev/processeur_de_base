@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Full_PB_RAM_4Kx16_0_1_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_RAM_4Kx16_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_clk_wiz_2_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_clk_wiz_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_R_Controller_0_1_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_R_Controller_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_pc_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_pc_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_Control_Unit_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_Control_Unit_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_ri_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_ri_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_outr_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_outr_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_MDR_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_MDR_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_E_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_E_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_mar_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_mar_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_F_controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_F_controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_S_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_S_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_ALU_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_ALU_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_FGO_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_FGO_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_clk_wiz_1_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_FGI_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_FGI_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_WR_Controller_0_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_WR_Controller_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Full_PB_clk_wiz_0_synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/Full_PB_clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/HP/Desktop/up/Full_PBase/Full_PBase.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Full_PB_RAM_4Kx16_0_1_synth_1"/>
+		<Parent Id="Full_PB_clk_wiz_2_0_synth_1"/>
+		<Parent Id="Full_PB_R_Controller_0_1_synth_1"/>
+		<Parent Id="Full_PB_pc_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_Control_Unit_0_0_synth_1"/>
+		<Parent Id="Full_PB_ri_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_outr_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_MDR_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_E_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_mar_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_F_controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_S_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_ALU_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_FGO_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_clk_wiz_1_0_synth_1"/>
+		<Parent Id="Full_PB_FGI_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_WR_Controller_0_0_synth_1"/>
+		<Parent Id="Full_PB_clk_wiz_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+Time=0 | F29=0 F21=0 s=0 | MDR=0000
+Time=10000 | F29=0 F21=0 s=1 | MDR=0000
+Time=15000 | F29=0 F21=0 s=1 | MDR=aaaa
+Time=20000 | F29=0 F21=1 s=0 | MDR=aaaa
+Time=25000 | F29=0 F21=1 s=0 | MDR=5555
+Time=30000 | F29=1 F21=0 s=0 | MDR=5555
+Time=35000 | F29=1 F21=0 s=0 | MDR=5556
+Time=40000 | F29=0 F21=0 s=0 | MDR=5556
+Time=45000 | F29=0 F21=0 s=0 | MDR=0000
+Time=50000 | F29=1 F21=1 s=1 | MDR=0000
+Time=55000 | F29=1 F21=1 s=1 | MDR=0001
+Time=60000 | F29=0 F21=0 s=0 | MDR=0001
+Time=65000 | F29=0 F21=0 s=0 | MDR=0000
+$finish called at time : 80 ns : File "C:/Users/HP/Desktop/up/MDR_Controller/MDR_Controller.srcs/sim_1/new/mdr_controller_tb.v" Line 95

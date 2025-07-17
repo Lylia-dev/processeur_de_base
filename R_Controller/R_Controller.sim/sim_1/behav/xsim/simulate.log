@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Time	F4	F9	R
+0	0	0	0
+10000	1	0	0
+15000	1	0	1
+20000	0	0	1
+40000	0	1	1
+45000	0	1	0
+50000	0	0	0
+$finish called at time : 70 ns : File "C:/Users/HP/Desktop/up/R_Controller/R_Controller.srcs/sim_1/new/R_controller_tb.v" Line 72

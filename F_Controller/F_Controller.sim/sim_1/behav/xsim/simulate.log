@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+F = 1 (expected 1)
+F = 0 (expected 0)
+F = 1 (expected 1)
+F = 1 (expected 1)
+F = 0 (expected 0)
+$finish called at time : 100 ns : File "C:/Users/HP/Desktop/up/F_Controller/F_Controller.srcs/sim_1/new/F_Controller_Tb.v" Line 85

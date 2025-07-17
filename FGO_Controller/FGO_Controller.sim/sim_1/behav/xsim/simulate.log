@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Time=10000 | Initial FGO = 1
+Time=20000 | After F44=1, FGO = 0
+Time=30000 | Final FGO = 0
+$stop called at time : 30 ns : File "C:/Users/HP/Desktop/up/FGO_Controller/FGO_Controller.srcs/sim_1/new/FGO_Controller_tb.v" Line 65

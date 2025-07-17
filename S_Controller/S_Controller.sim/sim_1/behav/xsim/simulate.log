@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Initial S = 1
+Final S = 0
+$stop called at time : 50 ns : File "C:/Users/HP/Desktop/up/S_Controller/S_Controller.srcs/sim_1/new/S_Controller_tb.v" Line 57

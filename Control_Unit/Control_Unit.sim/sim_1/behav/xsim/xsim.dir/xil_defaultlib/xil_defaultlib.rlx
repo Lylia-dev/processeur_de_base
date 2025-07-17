@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Control_Unit.v,1752671923,verilog,,C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/FR_Decoder.v,,Control_Unit,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Control_Unit_tb.v,1752618639,verilog,,,,tb_Control_Unit,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/FR_Decoder.v,1752617981,verilog,,C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/F_Generator.v,,FR_Decoder,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/F_Generator.v,1752618209,verilog,,C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Instruction_Decoder.v,,F_Generator,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Instruction_Decoder.v,1752618229,verilog,,C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Sync_Gen.v,,Instruction_Decoder,,,,,,,,
+C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Sync_Gen.v,1752618427,verilog,,C:/Users/HP/Desktop/up/Control_Unit/Control_Unit.srcs/sources_1/new/Control_Unit_tb.v,,Sync_Gen,,,,,,,,

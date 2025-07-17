@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Time 10000: MAR = 000 (Expected: 000)
+Time 20000: MAR = aaa (Expected: AAA)
+Time 30000: MAR = 234 (Expected: 234)
+Time 40000: MAR = f0f (Expected: F0F)
+Time 50000: MAR = f0f (Expected: F0F)
+Time 60000: MAR = aaa (Expected: AAA)
+$finish called at time : 60 ns : File "C:/Users/HP/Desktop/up/MAR_Controller/MAR_Controller.srcs/sim_1/new/mar_controller_tb.v" Line 100
