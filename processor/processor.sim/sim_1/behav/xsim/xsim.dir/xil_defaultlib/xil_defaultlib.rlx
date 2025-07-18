@@ -2,7 +2,7 @@
 2020.2
 Oct 14 2022
 05:20:55
-C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/hdl/processor_wrapper.v,1752793955,verilog,,,,processor_wrapper,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
+C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/hdl/processor_wrapper.v,1752793955,verilog,,C:/Users/HP/Desktop/up/processor/processor.srcs/sim_1/new/processor_tb.v,,processor_wrapper,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
 C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_ALU_Controller_0_0/sim/processor_ALU_Controller_0_0.v,1752793955,verilog,,C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ipshared/161b/sources_1/new/mdr_controller.v,,processor_ALU_Controller_0_0,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
 C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_Control_Unit_0_0/sim/processor_Control_Unit_0_0.v,1752793955,verilog,,C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ipshared/6349/sources_1/new/S_controller.v,,processor_Control_Unit_0_0,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
 C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_E_controller_0_0/sim/processor_E_controller_0_0.v,1752793956,verilog,,C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/sim/processor.v,,processor_E_controller_0_0,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
@@ -40,3 +40,4 @@ C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ipshared/e
 C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ipshared/f1b7/sources_1/new/ri_controller.v,1752793955,verilog,,C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_ri_controller_0_0/sim/processor_ri_controller_0_0.v,,ri_controller,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
 C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/sim/processor.v,1752793955,verilog,,C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/hdl/processor_wrapper.v,,processor,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,
 C:/Users/HP/Desktop/up/processor/processor.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/HP/Desktop/up/processor/processor.srcs/sim_1/new/processor_tb.v,1752851545,verilog,,,,processor_wrapper_tb,,,../../../../processor.gen/sources_1/bd/processor/ipshared/7698,,,,,

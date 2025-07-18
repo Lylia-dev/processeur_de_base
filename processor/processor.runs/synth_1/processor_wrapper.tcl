@@ -104,7 +104,7 @@ set_property ip_output_repo c:/Users/HP/Desktop/up/processor/processor.cache/ip 
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib c:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/hdl/processor_wrapper.v
+read_verilog -library xil_defaultlib C:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/hdl/processor_wrapper.v
 add_files C:/Users/HP/Desktop/up/processor/processor.srcs/sources_1/bd/processor/processor.bd
 set_property used_in_implementation false [get_files -all c:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_clk_wiz_0/processor_clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/HP/Desktop/up/processor/processor.gen/sources_1/bd/processor/ip/processor_clk_wiz_0/processor_clk_wiz_0.xdc]
@@ -123,6 +123,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/Users/HP/Desktop/up/processor/processor.srcs/utils_1/imports/synth_1/processor_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
